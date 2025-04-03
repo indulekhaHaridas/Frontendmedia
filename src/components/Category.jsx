@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-bootstrap/Modal';
 import React, { useEffect,useState} from 'react'
-import VideoCard from './Videocard'
+import VideoCard from './Videoard'
 import { addCategoryApi,  deleteCategoryApi, getAllCategoryApi, updateCategoryApi } from '../services/allApi';
 import { toast, ToastContainer } from 'react-toastify';
 
