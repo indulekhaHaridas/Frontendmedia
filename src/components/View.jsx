@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Videocard from './Videocard'
+import Videocard from './VideoCard'
 import { allVideosApi } from '../services/allApi'
 
 function View({addVideoStatus}) {
