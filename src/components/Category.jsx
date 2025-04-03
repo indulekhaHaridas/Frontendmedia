@@ -2,8 +2,8 @@ import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-bootstrap/Modal';
-import React, { useEffect,useState} from 'react'
-import VideoCard from './Videoard'
+import React, { useEffect,useState} from 'react';
+import VideoCard from './VideoCard'
 import { addCategoryApi,  deleteCategoryApi, getAllCategoryApi, updateCategoryApi } from '../services/allApi';
 import { toast, ToastContainer } from 'react-toastify';
 

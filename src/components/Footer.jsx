@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faWhatsapp, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+
+
 function Footer() {
   return (
     <>

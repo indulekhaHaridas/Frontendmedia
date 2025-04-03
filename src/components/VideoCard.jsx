@@ -9,7 +9,7 @@ import { addVideoHistoryApi, deleteVideoApi } from '../services/allApi';
 
 
 
-function Videocard({video , setDeleteVideoStatus, isPresent}){
+function VideoCard({video , setDeleteVideoStatus, isPresent}){
  // console.log(video);
   
   const [show, setShow] = useState(false);
@@ -78,4 +78,4 @@ function Videocard({video , setDeleteVideoStatus, isPresent}){
   )
 }
 
-export default Videocard
+export default VideoCard
