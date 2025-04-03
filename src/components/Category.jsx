@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react'
 import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import Modal from 'react-bootstrap/Modal';
-import { useState } from 'react';
+import React, { useEffect,useState} from 'react'
 import VideoCard from './Videocard'
-import { addCategoryApi, allVideosApi, deleteCategoryApi, getAllCategoryApi, updateCategoryApi } from '../services/allApi';
+import { addCategoryApi,  deleteCategoryApi, getAllCategoryApi, updateCategoryApi } from '../services/allApi';
 import { toast, ToastContainer } from 'react-toastify';
 
 
